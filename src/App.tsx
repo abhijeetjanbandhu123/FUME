@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from 'react';
 import { 
   CheckCircle2, Edit2, XCircle, Info, MessageSquare, 
   Activity, Utensils, Moon, Droplets, AlertTriangle, UserCheck, Check, Calendar, ChevronDown,
-  UploadCloud, FileAudio, FileText, BrainCircuit, Database, Cpu
+  FileAudio, BrainCircuit, Cpu
 } from 'lucide-react';
 
 const TourTooltip = ({ currentStep, targetStep, title, content, position, onNext, onSkip }: any) => {
